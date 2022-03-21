@@ -1,0 +1,491 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+header {
+    background: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 70px;
+}
+
+#img-bn {
+    width: 190px;
+    margin: 5px;
+}
+
+.space-grid {
+    width: 50%;
+}
+
+.moodle-align-left {
+    height: 45vh;
+    width: 100%;
+    z-index: 456; 
+    background: url(img/main.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.moodle-align-left form {
+    max-width: 470px;
+    max-height: 700px;
+    width: 64vw;
+    padding: 30px;
+    flex-wrap: wrap;
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid #d7dfe3;
+    font-family: sans-serif;
+    margin: 20px !important;
+}
+
+#form-get h2{
+    color:#455a64;
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.user {
+    display: block;
+}
+
+.user input, .password input {
+    width: 100%;
+    height: 4.7vh;
+    padding-left: 10px;
+    outline: 0;
+    font-size: 1.1rem;
+}
+
+.user input {
+    margin: 7px 0;
+}
+
+.password input {
+    margin: 7px 0;
+}
+
+.user, .password {
+    margin: 0;
+}
+
+.user label, .password label {
+    color: #565656;
+    font-size: 1.2rem;
+}
+
+.user input:focus, .password input:focus {
+    border: 2px solid #357a32;
+    transition: 0.4s;
+}
+
+.requisicoes {
+    flex-wrap: wrap;
+}
+
+.requisicoes input[type=submit] {
+    width: 30%;
+    height: 4.6vh;
+    background: #1a6226;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    border: 0;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.requisicoes input[type=submit]:hover {
+    background: #12421a;
+}
+
+.requisicoes a {
+    display: block;
+    margin: 10px 0;
+    width: 70%;
+    color: #33753e;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.requisicoes button {
+    width: 100%;
+    height: 3.4vh;
+    border: 0;
+    background: #ced4da;
+    cursor: pointer;
+    transition: 0.2s;
+    color: #212529;
+}
+
+.requisicoes button:hover {
+    background: #c4caca;
+}
+
+.box-group {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 50vh;
+}
+
+.box {
+    display: flex;
+    gap: 10px;
+    margin: 20px;
+    font-family: sans-serif;
+}
+
+.box-single {
+    width: 17vw;
+    height: 42vh;
+    padding: 10px 1px;
+    border: 1px solid #d7dfe3;
+    text-align: center;
+}
+
+.box-single h2 {
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: #565656;
+}
+
+.box-single p {
+    font-size: 1rem;
+}
+
+
+.box-single p {
+    margin: 5px 0;
+    color: #9f9f9f;
+}
+
+.box-single img {
+    width: 140px;
+}
+
+.box-single button {
+    margin: 10px 0;
+    width: 50%;
+    height: 4vh;
+    background: #1a6226;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    border: 0;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.box-single button:hover {
+    background: #12421a;
+}
+
+.welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+.welcome h2 {
+    font-size: 24px;
+    font-weight: 300;
+    font-family: sans-serif;
+    color: #0c5819;
+
+}
+
+.alguns-numeros {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    height: 35vh;
+    background: #1a6226;
+}
+
+.warn {
+    max-width: 200px;
+    font-size: 25px;
+}
+
+.warn h2 {
+    font-weight: 200;
+    color: #f3a7e6;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    gap: 80px;
+    font-family: sans-serif;
+}
+
+.card-single {
+    width: 10vw;
+    flex-wrap: wrap;
+}
+
+.card-single i {
+    font-size: 40px;
+    margin: 15px 0;
+}
+
+.h2-moodle-work {
+    font-weight: 300;
+    font-size: 17px;
+    margin: 10px 0;
+}
+
+.h2-moodle-number {
+    margin: 10px 0;
+}
+
+.manter-contato {
+    background: url(https://ead.ifms.edu.br/theme/image.php/moove/theme/1633520171/footer-bg) no-repeat center center;
+    height: 18.5vh;
+}
+
+.flex-power {
+    display: flex;
+    font-family: sans-serif;
+}
+
+
+
+.nav-div {
+    width: 100%;
+    height: 18.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mtr-contato {
+    margin: 20px;
+}
+
+.mtr-contato h2 {
+    font-weight: 300;
+    font-size: 1.6rem;
+    color: #0c5819;
+}
+
+.mtr-contato h3 {
+    margin: 10px 0;
+    color: #455a64;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.i_a {
+    font-size: 1.4rem;
+    margin-left: 10px;
+}
+
+.i_a i {
+    color: #455a64;
+}
+
+.i_a a {
+    color: #0c5819;
+}
+
+.i_a > a:hover {
+    text-decoration: underline;
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: end;
+    margin: 20px;
+}
+
+
+.btns button {
+    margin: 5px 0;
+    text-align: center;
+    width: 20vw;
+    height: 4vh;
+    border: 0;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+#btn-1 {
+    background: #ced4da;
+}
+
+#btn-2 {
+    width: 25vw;
+    background: #1a6226;
+    color: #fff;
+}
+
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+    background:#f98012;
+
+}
+
+.center h2 > img {
+    width: 100px;
+}
+
+.center h2 {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+
+.center p, .center i, .center a {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+.center p, .center a {
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.center i {
+    color: #ff0000;
+}
+
+.center a {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 700px) {
+    .manter-contato {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        height: 40vh;
+    }
+
+    .nav-div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btns {
+        
+    }
+
+    .btns button, #btn-2 {
+        width: 50vw;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .box {
+        flex-direction: column;
+        text-align: center;
+        margin: 20px;
+    }
+
+    .box-single {
+        width: 45vw;
+    }
+
+    .box-group {
+        height: 100%;
+    }
+    .moodle-align-left form, .space-grid {
+        display: none;
+        transition-duration: 0.4s;
+    }
+}
+
+@media screen and (max-height: 800px) {
+    .box {
+        flex-direction: column;
+        text-align: center;
+        margin: 20px;
+    }
+
+    .box-single {
+        width: 45vw;
+    }
+
+    .box-group {
+        height: 100%;
+    }
+    .moodle-align-left form, .space-grid {
+        display: none;
+        transition-duration: 0.4s;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .box-single {
+        width: 60vw;
+    }
+}
+
+
+@media screen and (max-height: 805px) {
+    .moodle-align-left {
+        height: 30vh;
+    }
+    .box-single {
+        width: 44vw;
+        height: 100%;
+        padding: 10px 1px;
+        border: 1px solid #d7dfe3;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 805px) {
+    .cards {
+        flex-direction: column !important;
+    }
+    .alguns-numeros {
+        height: 100%;
+    }
+    .card-single {
+        width: 80vw;
+    }
+}
+
+@media screen and (max-width: 805px) and (max-height:850px){
+    .card-single {
+        width: 80vw;
+    }
+
+    .alguns-numeros {
+        height: 100%;
+    }
+}
+
